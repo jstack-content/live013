@@ -1,0 +1,14 @@
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/users
+
+{
+  "name": "Vanessinha",
+  "email": "vanessa@jstack.com.br"
+}
+
+###
+
+DELETE http://localhost:3000/users/1
